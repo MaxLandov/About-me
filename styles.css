@@ -1,0 +1,162 @@
+/* Globālie stili */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+p {
+    line-height: 1.6;
+    margin: 1em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header stili */
+header {
+    background-color: #283593;
+    color: white;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/* Main stili */
+main {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Sadaļu stili */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+}
+
+.about-me .container {
+    text-align: center;
+}
+
+.about-me p {
+    margin-bottom: 20px;
+}
+
+.about-me .gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.about-me .gallery img {
+    max-width: 100%; /* Attēla maksimālais platumu 100% no konteineram */
+    height: auto; /* Sagarinājums automātiski, lai saglabātu proporcijas */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #283593;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+/* Footer stili */
+footer {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
